@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./webwithclasses.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body class="font-sans">
+    <main class="m-5">
+      <div>
+        <div>Input:</div>
+        <textarea name="input" id="input" class="border-1"></textarea>
+      </div>
+      <div>
+        <div class="flex">
+          <div
+            id="caesarbutton"
+            class="w-30 h-8 bg-gray-100 border-2 mb-1 text-center rounded-lg"
+          >
+            Caesar Cyper
+          </div>
+          <input id="caesarshift" type="text" class="border-1"></input>
+        </div>
+
+        <textarea
+          name="caesaroutput"
+          id="caesaroutput"
+          class="border-1"
+        ></textarea>
+      </div>
+      <div>
+        <div
+          id="piglatinbutton"
+          class="w-30 h-8 bg-gray-100 border-2 mb-1 text-center rounded-lg"
+        >
+          Pig Latin
+        </div>
+        <textarea
+          name="piglatinoutput"
+          id="piglatinoutput"
+          class="border-1"
+        ></textarea>
+      </div>
+    </main>
+  </body>
+</html>
